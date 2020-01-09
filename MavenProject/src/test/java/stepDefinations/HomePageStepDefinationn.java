@@ -24,7 +24,7 @@ public class HomePageStepDefinationn extends TestBase {
 	}
 
 	@Then("click on Login link")
-	public void click_on_Login_link() {
+	public void click_on_Login_link() throws InterruptedException {
 		lp.Login();
 	   
 	}
